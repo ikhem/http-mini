@@ -97,7 +97,9 @@ button:hover {
 }
 
 .troops {
-  display: inline;
+  /*display: inline;*/
+  display: flex;
+  flex-direction: column;
 }
 .troop {
   background-color: RGBA(137, 20, 17, 1.00);
